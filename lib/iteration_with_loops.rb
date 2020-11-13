@@ -17,6 +17,8 @@ row_index = 0
   return new_array
 end
 
+join_nested_strings(new_array)
+
 =begin
   while element_index < src[row_index].count do
     if src[row_index][element_index].is_?

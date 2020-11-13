@@ -14,7 +14,7 @@ row_index = 0
     end
     row_index += 1 
   end
-  return new_array.to_s 
+  return new_array
 end
 
 =begin

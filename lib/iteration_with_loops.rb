@@ -14,7 +14,8 @@ row_index = 0
     end
     row_index += 1 
   end
-  
+end
+
 =begin
   while element_index < src[row_index].count do
     if src[row_index][element_index].is_?
@@ -24,4 +25,3 @@ row_index = 0
   end
 end
 =end
-end

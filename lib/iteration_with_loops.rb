@@ -17,7 +17,7 @@ row_index = 0
   return new_array
 end
 
-puts join_nested_strings()
+
 
 =begin
   while element_index < src[row_index].count do

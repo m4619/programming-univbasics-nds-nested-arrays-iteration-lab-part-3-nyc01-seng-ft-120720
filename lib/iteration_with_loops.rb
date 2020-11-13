@@ -14,7 +14,7 @@ row_index = 0
     end
     row_index += 1 
   end
-  return "Ruby" + new_array
+  return new_array
 end
 
 =begin

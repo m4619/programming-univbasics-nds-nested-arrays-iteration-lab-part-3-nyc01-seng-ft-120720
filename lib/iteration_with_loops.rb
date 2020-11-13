@@ -8,8 +8,10 @@ row_index = 0
     element_index = 0
   end
   while element_index < src[row_index].count do
-    if src[row_index][element_index].to_
+    if src[row_index][element_index].is_?
+      new_array = << src[row_index][element_index]
     end 
+    element_index += 1 
   end
   row_index += 1
 end

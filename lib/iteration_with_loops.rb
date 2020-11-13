@@ -16,7 +16,6 @@ row_index = 0
     row_index += 1 
   end
   return new_array
-  binding.pry
 end
 
 

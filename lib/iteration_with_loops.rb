@@ -3,14 +3,19 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
 new_array = []
 row_index = 0
-
+element_index = 0 
   while row_index < src.count do
     element_index = 0
+    
   end
- # while element_index < src[row_index].count do
-#    if src[row_index][element_index].is_?
-#      new_array << src[row_index][element_index]
-#    end 
-#    element_index += 1 
-#  end
+  
+=begin
+  while element_index < src[row_index].count do
+    if src[row_index][element_index].is_?
+      new_array << src[row_index][element_index]
+    end 
+    element_index += 1 
+  end
+end
+=end
 end

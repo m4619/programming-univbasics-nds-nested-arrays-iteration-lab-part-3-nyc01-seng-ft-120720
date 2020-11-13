@@ -15,7 +15,7 @@ row_index = 0
     end
     row_index += 1 
   end
-  new_array
+  new_array.to_s 
 end
 
 

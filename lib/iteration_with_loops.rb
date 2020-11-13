@@ -14,6 +14,7 @@ row_index = 0
       element_index += 1 
     end
     row_index += 1 
+    binding.pry
   end
   new_array
 end

@@ -8,7 +8,7 @@ row_index = 0
     element_index = 0
   end
   while element_index < src[row_index].count do
-    if src[row_index][element_index] == .to_s
+    if src[row_index][element_index].to_s? 
     end 
   end
   row_index += 1
